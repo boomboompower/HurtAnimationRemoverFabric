@@ -4,7 +4,7 @@
   "package": "wtf.boomy.mods.hurtanimationremover.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinEntityRenderer"
+    "MixinGameRenderer"
   ],
   "client": [
   ],

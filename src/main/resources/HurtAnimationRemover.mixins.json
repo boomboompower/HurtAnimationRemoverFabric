@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "wtf.boomy.mods.hurtanimationremover.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinEntityRenderer"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

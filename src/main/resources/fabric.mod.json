@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "hurtanimationremover",
+  "version": "${version}",
+  "name": "HurtAnimationRemover",
+  "description": "",
+  "authors": [
+    "boomboompower"
+  ],
+  "contact": {
+    "website": "https://boomy.wtf"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "wtf.boomy.mods.hurtanimationremover.client.HurtAnimationRemoverClient"
+    ],
+    "main": [
+      "wtf.boomy.mods.hurtanimationremover.HurtAnimationRemover"
+    ]
+  },
+  "mixins": [
+    "HurtAnimationRemover.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
